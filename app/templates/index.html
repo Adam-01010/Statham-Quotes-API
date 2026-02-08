@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/static/css/styles.css">
+
+    <title>Statham Quotes API</title>
+</head>
+<body style="background-color:black;">
+    <div style="border: solid white 3px;  padding:20px;">
+        <h1 style="color:white;">Цитатник Стетхема</h1>
+        <div id="quote" class="quote-item" >
+            <!-- Здесь будет отображаться цитата -->
+        </div>
+
+        <button onclick="getQuote()" class="quote-button">Новая цитата</button>
+    </div>  
+
+    <div style="margin-top:100px;">
+        <input type="text" id="myQuote" placeholder="Введите свою цитату">
+        <button onclick="sendMyQuote()">Сохранить мою цитату</button>
+    </div>
+    
+    <script src="\static\js\scripts.js"></script>
+</body>
+</html>

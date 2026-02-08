@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Виртуальные среды
+env/
+venv/
+*.env
+
+# Docker
+**/data/quotes.txt  # Исключаем файл данных
+docker-compose.override.yml
+
+# Логи
+*.log
+
+# IDE и текстовые редакторы
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo

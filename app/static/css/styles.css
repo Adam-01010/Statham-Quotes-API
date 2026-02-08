@@ -1,0 +1,30 @@
+
+
+.quote-button {
+        background-color: #ffffff; /* Начальный цвет */
+        margin-top:20px;
+        color: rgb(0, 0, 0); /* Цвет текста */
+        border: solid 5px white; /* Без рамки */
+        padding: 15px 32px; /* Отступы */
+        text-align: center; /* Центрирование текста */
+        text-decoration: none; /* Без подчеркивания */
+        display: inline-block; /* Инлайновый блок */
+        font-size: 16px; /* Размер шрифта */
+        transition: background-color 0.2s, color 0.2s, transform 0.2s; /* Плавные переходы */
+    }
+
+.quote-button:hover {
+    background-color: #000000; /* Цвет при наведении */
+    color: white;
+}
+
+
+
+.quote-item{
+    margin-top: 20px;
+    background-color: #333; /* Темный фон для цитаты */
+    color: white; /* Белый текст */
+    padding: 20px; /* Отступы внутри блока цитаты */
+    border-radius: 10px; /* Скругление углов */
+    font-size: 18px; /* Размер шрифта для цитаты */
+} 
