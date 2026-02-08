@@ -14,7 +14,7 @@ if response.status_code == 200:
     
     # Находим все теги blockquote
     quotes = soup.find_all('blockquote')
-    f = open('quotes.txt', 'w', encoding='utf-8')
+    f = open('data/quotes.txt', 'w', encoding='utf-8')
     a = 0
     # Извлекаем текст из каждого тега blockquote
     for quote in quotes:
